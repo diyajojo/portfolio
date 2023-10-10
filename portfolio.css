@@ -1,0 +1,115 @@
+#heading
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1000px;
+    margin: 10px;
+    color: black;
+    background-color:white;
+}
+#leftcorner
+{
+    display: flex;
+    gap: 20px;
+}
+#namelogo
+{
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;   
+}
+.header
+{ 
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 40px;
+ margin: 0;
+}
+#rightcorner
+{
+    display: flex;
+    gap: 20px;
+}
+.home,.experience,.blog,.contact
+{
+    padding-left: 1px;
+    font-size: large;
+    margin-top: 20;   
+}
+.home,.about
+{
+    text-decoration: underline;
+}
+#middle
+{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+.waviy
+{
+    position: relative; 
+    
+    font-size: 40px;
+    margin: 0;
+    color: black;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+.waviy span 
+{
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    color: #050505;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+h1
+{
+    font-family: 'Handlee', cursive;
+    font-size: 80px;
+    padding-left: 100px;
+    margin: 0;
+}
+#media
+{
+  height: 80px;
+  width: 400px;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+#main
+{
+    height: 500px; 
+    width: 500px;
+    padding-top: 50px;
+    border-radius: 48% 52% 50% 50% / 46% 45% 55% 54%  ;
+}
+#ending
+{
+ padding-top: 200px; 
+ padding-left: 700px;  
+}
+.about
+{
+  padding-left: 150px;
+}
+.l1,.l2,.l3,.l4,.l5, .l6
+{
+    font-size: 20px;
+}
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=360);
+    margin: 0;
+}
+
